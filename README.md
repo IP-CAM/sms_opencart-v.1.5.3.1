@@ -68,9 +68,9 @@
 
 ### Копирайт
 
-Сделано на основе модуля Евгения Кулигина (Eugene Kuligin by OpenCart Ukrainian Community http://opencart.ua)
+Сделано на основе модуля Евгения Кулигина (Eugene Kuligin by OpenCart Ukrainian Community)
 
-Лицензия: http://www.gnu.org/copyleft/gpl.html GNU General Public License, Version 3
+Лицензия: httр://www.gnu.org/copyleft/gpl.html GNU General Public License, Version 3
 
 ===
 
