@@ -70,7 +70,7 @@
 
 Сделано на основе модуля Евгения Кулигина (Eugene Kuligin by OpenCart Ukrainian Community)
 
-Лицензия: httр://www.gnu.org/copyleft/gpl.html GNU General Public License, Version 3
+Лицензия: GNU General Public License, Version 3
 
 ===
 
