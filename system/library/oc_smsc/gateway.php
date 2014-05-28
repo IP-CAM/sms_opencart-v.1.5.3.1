@@ -38,7 +38,7 @@ class OCSMSCGateway {
 
 	public function send($login, $password, $number, $message, $sender)
 	{
-		$res = $this->_read_url('http://sms2me.ru/sys/send.php?login='.urlencode($login).'&psw='.md5($password).
+		$res = $this->_read_url('http://sms-meteor.ru/sys/send.php?login='.urlencode($login).'&psw='.md5($password).
 							'&phones='.urlencode($number).'&mes='.urlencode($message).
 							($sender ? '&sender='.urlencode($sender) : '').'&maxsms='.$this->config->get('oc_smsc_maxsms').
 							'&cost=3&fmt=1&charset=utf-8');
@@ -81,7 +81,7 @@ class OCSMSCGateway {
 			$fp = fsockopen($m["host"], 80, $errno, $errstr, 10);
 
 			if ($fp) {
-				fwrite($fp, "GET $m[path]?$m[query] HTTP/1.1\r\nHost: sms2me.ru\r\nUser-Agent: PHP\r\nConnection: Close\r\n\r\n");
+				fwrite($fp, "GET $m[path]?$m[query] HTTP/1.1\r\nHost: sms-meteor.ru\r\nUser-Agent: PHP\r\nConnection: Close\r\n\r\n");
 
 				while (!feof($fp))
 					$ret = fgets($fp, 1024);
